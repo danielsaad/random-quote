@@ -56,3 +56,41 @@ body {
   -o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
   transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
+
+blockquote{
+  border-left:none
+}
+
+.quote-badge{
+  background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+  
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 17px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-top: 12%;
+  color:BLACK;
+  width: 80%;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  
+}
+
+.quotation-mark{
+  
+  margin-top: -10px;
+  font-weight: bold;
+  font-size:100px;
+  color:black;
+  font-family: "Times New Roman", Georgia, Serif;
+  
+}
+
+.quote-text{
+  font-size: 19px;
+  margin-top: -65px;
+}

@@ -216,11 +216,13 @@ function getRandomQuote() {
     return quotes[index]
 }
 function getRandomNameView() {
-    var randomName = document.querySelector("#random-quote");
+    q = getRandomQuote()
+    var randomName = document.querySelector(".quote-text");
     randomName.className = "";
-    author = getRandomQuote()
-    randomName.innerHTML = quote.quote + "<br>" + quote.author ;
-    randomName.className = "show-name";
+    randomName.innerHTML = q.quote;
+    randomName = document.querySelector(".blog-post-bottom");
+    randomName.className = "";
+    randomName.innerHTML = q.author;
 }
 function setupListeners() {
     document.addEventListener('click', function (ev) {
