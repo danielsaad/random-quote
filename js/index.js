@@ -63,7 +63,7 @@ function getRandomQuote() {
         },
         {
             quote: "Never again say that I’m going to be defeated. Never again make me the underdog. Until I’m about 50 years old, then you might get me.",
-            quote: "Muhammad Ali"
+            author: "Muhammad Ali"
         },
         {
             quote : "The fight is won or lost far away from witnesses   behind the lines, in the gym, and out there on the road, long before I dance under those lights",
@@ -199,15 +199,15 @@ function getRandomQuote() {
         },
         {
             quote: "I will drive flat out all the time ... I love racing.",
-            quote: "Gilles Villeneuve"
+            author: "Gilles Villeneuve"
         },
         {
             quote: "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
-            quote: "Michael Jordan"
+            author: "Michael Jordan"
         },
         {
             quote: "A champion is someone who gets up when he can't.",
-            quote: "Jack Dempsey"
+            author: "Jack Dempsey"
         }
     ]
 
@@ -218,10 +218,10 @@ function getRandomQuote() {
 function getRandomNameView() {
     q = getRandomQuote()
     var randomName = document.querySelector(".quote-text");
-    randomName.className = "";
+    // randomName.className = "";
     randomName.innerHTML = q.quote;
     randomName = document.querySelector(".blog-post-bottom");
-    randomName.className = "";
+    // randomName.className = "";
     randomName.innerHTML = q.author;
 }
 function setupListeners() {
